@@ -21,4 +21,10 @@ at this point you have a working site at https://[yourusername].github.io/[repoN
 
 6. in _layouts, copy this file: https://github.com/jlcampbell/blog/blob/master/_layouts/post.html
 
+7. in _data, create navigation.yml and paste this:
+```
+- name: Home
+  link: /
+```
+
 
