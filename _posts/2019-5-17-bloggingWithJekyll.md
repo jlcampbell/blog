@@ -37,7 +37,7 @@ title: Blogging with Jekyll on Github
 
 below, put whatever markup you want.
 
-When you launch your site you should see links to all markup articles under posts!!!
+When you launch your site you should see a link to your post! Any new posts you add to the posts directory will show up on your site now!
 
 
 
