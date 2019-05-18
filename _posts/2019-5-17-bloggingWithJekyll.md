@@ -19,3 +19,6 @@ at this point you have a working site at https://[yourusername].github.io/[repoN
 
 5. create a directory each : _layouts _data _posts
 
+6. in _layouts, copy this file: https://github.com/jlcampbell/blog/blob/master/_layouts/post.html
+
+
