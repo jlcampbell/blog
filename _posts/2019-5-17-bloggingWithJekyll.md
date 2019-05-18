@@ -15,20 +15,7 @@ at this point you have a working site at https://[yourusername].github.io/[repoN
 
 3. your repo should have 2 files now, a README, and a config.yml. keep these. you will add 4 more files including your first blog post!
 
-4. now, create a file named "index.html" under root
-```
----
-layout: default
-title: Home
----
-<h1>Latest Posts</h1>
+4. create a file named "index.html" under root
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
-```
+5. create a directory each : _layouts _data _posts
+
