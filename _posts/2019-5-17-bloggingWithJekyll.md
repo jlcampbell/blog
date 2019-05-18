@@ -26,5 +26,18 @@ at this point you have a working site at https://[yourusername].github.io/[repoN
 - name: Home
   link: /
 ```
+8. create a new post in _posts called [year]-[month]-[day]-[title].md
+. 8 .a. at the top, put this:
+```
+---
+layout: post
+title: Blogging with Jekyll on Github
+---
+```
+
+below, put whatever markup you want.
+
+When you launch your site you should see links to all markup articles under posts!!!
+
 
 
