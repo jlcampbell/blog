@@ -39,7 +39,7 @@ below, put whatever markup you want.
 
 When you launch your site you should see a link to your post! Any new posts you add to the posts directory will show up on your site now!
 
-check out this documentation for more info : https://jekyllrb.com/docs/step-by-step/08-blogging/
+check out this [documentation](https://jekyllrb.com/docs/step-by-step/08-blogging/) for more info 
 
 
 
