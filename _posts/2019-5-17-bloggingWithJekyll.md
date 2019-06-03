@@ -27,6 +27,9 @@ at this point you have a working site at https://[yourusername].github.io/[repoN
   link: /
 ```
 8. create a new post in _posts called [year]-[month]-[day]-[title].md
+UPDATE 6/2/19:
+Please also note that the blog will not build the links correctly if you do not use today's date in UTC
+
 . 8 .a. at the top, put this:
 ```
 ---
@@ -34,6 +37,9 @@ layout: post
 title: Blogging with Jekyll on Github
 ---
 ```
+UPDATE 6/2/19:
+Please note that you may need to type the header manually for it to be registered as a markup file.
+
 
 below, put whatever markup you want.
 
