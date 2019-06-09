@@ -13,6 +13,7 @@ What follows is what I had to do to blink a light, and how it works.
 4. Select blink from the starter projects.
 5. Confirm, and once the project loads, go to build - > "build all"
 6. Debug - the moment of truth. If you are lucky this will launch debug mode, and allow you to step through the starter code
+7. Set a breakpoint in your while loop. You can step over and continue to see the red light blink on the board
 
 The code.
 ```
@@ -33,3 +34,6 @@ void main(void)
 	}
 }
 ```
+Explaination:
+Take a look at the memory explorer in debug mode.
+`P1DIR |= 0x01;` sets the direction of port 1.0 to 0x01, which is hex for 1. The direction of 1 means the port will be Output.
