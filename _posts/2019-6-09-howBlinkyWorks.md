@@ -38,7 +38,18 @@ Explaination:
 Take a look at the memory explorer in debug mode.
 `P1DIR |= 0x01;` sets the direction of port 1.0 to 0x01, which is hex for 1. The direction of 1 means the port will be Output.
 
-![alt text](https://github.com/jlcampbell/blog/assets/full.png "Logo Title Text 1")
+![the code](https://github.com/jlcampbell/blog/blob/master/full.png "The code, with dissassembly open")
+
+`P1OUT ^= 0x01;` set P1OUT, to do an XOR comparison against 01.
+
+![one](https://github.com/jlcampbell/blog/blob/master/one.png "The code, with dissassembly open")
+
+![zero](https://github.com/jlcampbell/blog/blob/master/one.png "The code, with dissassembly open")
+
+
+
+
+Read more about bitwise XOR comparison [here](https://hackernoon.com/xor-the-magical-bit-wise-operator-24d3012ed821)
 
 
 
