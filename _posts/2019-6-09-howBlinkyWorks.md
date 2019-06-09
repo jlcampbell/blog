@@ -15,7 +15,7 @@ What follows is what I had to do to blink a light, and how it works.
 6. Debug - the moment of truth. If you are lucky this will launch debug mode, and allow you to step through the starter code
 
 The code.
-'
+```
 /**
  * blink.c
  */
@@ -32,4 +32,4 @@ void main(void)
 		for(i=10000; i>0; i--);     // delay
 	}
 }
-'
+```
