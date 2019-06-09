@@ -40,19 +40,19 @@ Take a look at the memory explorer in debug mode.
 
 ![the code](../../../full.png "The code, with dissassembly open")
 
-`P1OUT ^= 0x01;` set P1OUT, to do an XOR comparison against 01.
+`P1OUT ^= 0x01;` set P1OUT, to do an XOR comparison against 01 to toggle the light on and off.
 
 ![one](../../../one.png "memory browser when light is on")
 
-Memory browser when light is on.
+Memory browser when light is on, last two digits are 11.
 
-`11 XOR 01 = 10` 
+XOR comparison: `11 XOR 01 = 10` 
 
 ![zero](../../../zero.png "memory browser when light is off")
 
-Memory browser when light is off. 
+Memory browser when light is off. Last two digits are 10, so when XOR gets evaluated, the light will get switched back on.
 
-`10 XOR 01 = 11`
+XOR comparison: `10 XOR 01 = 11`
 
 Read more about bitwise XOR comparison [here](https://hackernoon.com/xor-the-magical-bit-wise-operator-24d3012ed821)
 
