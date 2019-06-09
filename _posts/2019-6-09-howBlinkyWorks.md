@@ -42,12 +42,14 @@ Take a look at the memory explorer in debug mode.
 
 `P1OUT ^= 0x01;` set P1OUT, to do an XOR comparison against 01.
 
-![one](../../../one.png "The code, with dissassembly open")
+![one](../../../one.png "memory browser when light is on")
+Memory browser when light is on.
+11 XOR 01 = 10 
 
-![zero](../../../zero.png "The code, with dissassembly open")
+![zero](../../../zero.png "memory browser when light is off")
+Memory browser when light is off. 
 
-
-
+10 XOR 01 = 11
 
 Read more about bitwise XOR comparison [here](https://hackernoon.com/xor-the-magical-bit-wise-operator-24d3012ed821)
 
