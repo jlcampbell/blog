@@ -42,9 +42,9 @@ Take a look at the memory explorer in debug mode.
 
 `P1OUT ^= 0x01;` set P1OUT, to do an XOR comparison against 01.
 
-![one](../one.png "The code, with dissassembly open")
+![one](../../../one.png "The code, with dissassembly open")
 
-![zero](../zero.png "The code, with dissassembly open")
+![zero](../../../zero.png "The code, with dissassembly open")
 
 
 
