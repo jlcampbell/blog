@@ -3,7 +3,7 @@ layout: post
 title: How Blinky Works
 ---
 
-I am learning embedded development on an MSP-430 Launchpad kit.
+I am playing with embedded development on an MSP-430 Launchpad kit.
 
 What follows is what I had to do to blink a light, and how it works.
 
