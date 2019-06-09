@@ -38,7 +38,7 @@ Explaination:
 Take a look at the memory explorer in debug mode.
 `P1DIR |= 0x01;` sets the direction of port 1.0 to 0x01, which is hex for 1. The direction of 1 means the port will be Output.
 
-![alt text](https://github.com/jlcampbell/blog/full.png "Logo Title Text 1")
+![alt text](https://github.com/jlcampbell/blog/assets/full.png "Logo Title Text 1")
 
 
 
